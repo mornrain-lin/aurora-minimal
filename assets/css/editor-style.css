@@ -1,0 +1,72 @@
+/**
+ * Aurora Minimal 区块编辑器内样式。
+ *
+ * 让编辑器内的排版观感与前台一致，字体全部使用系统字体栈。
+ */
+
+.editor-styles-wrapper {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+	font-size: 17px;
+	line-height: 1.75;
+	color: #1c1c1e;
+}
+
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h6 {
+	font-weight: 600;
+	line-height: 1.3;
+	letter-spacing: -0.01em;
+}
+
+.editor-styles-wrapper h1 {
+	font-size: 2.6rem;
+}
+
+.editor-styles-wrapper h2 {
+	font-size: 1.9rem;
+}
+
+.editor-styles-wrapper h3 {
+	font-size: 1.25rem;
+}
+
+.editor-styles-wrapper a {
+	color: #2b6cb0;
+}
+
+.editor-styles-wrapper blockquote {
+	padding: 16px 24px;
+	border-left: 2px solid #d3d3d8;
+	color: #55555c;
+	background-color: #f7f7f8;
+}
+
+.editor-styles-wrapper code {
+	padding: 0.15em 0.4em;
+	background-color: #f7f7f8;
+	border: 1px solid #e6e6e9;
+	border-radius: 3px;
+	font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+	font-size: 0.875em;
+}
+
+.editor-styles-wrapper pre {
+	padding: 16px;
+	background-color: #f7f7f8;
+	border: 1px solid #e6e6e9;
+	border-radius: 4px;
+}
+
+.editor-styles-wrapper table th,
+.editor-styles-wrapper table td {
+	padding: 8px 12px;
+	border: 1px solid #e6e6e9;
+}
+
+.editor-styles-wrapper table th {
+	background-color: #f7f7f8;
+}
